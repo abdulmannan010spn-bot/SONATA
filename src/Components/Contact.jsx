@@ -2,13 +2,13 @@ import { MapPin, Phone } from "lucide-react";
 
 const Contact = () => {
   return (
-    <footer id="contact" className="w-full min-h-screen flex justify-center">
-      <div className="w-full lg:h-[80vh] lg:mt-20 pt-28 lg:pt-32">
+    <footer id="contact" className="w-full min-h-dvh flex justify-center">
+      <div className="w-full lg:min-h-[80vh] lg:mt-20 pt-28 lg:pt-32 pb-10">
         <h2 className="font-[Jura] uppercase text-center text-white font-bold text-4xl md:text-6xl lg:text-8xl lg:whitespace-nowrap">
           where to find us
         </h2>
 
-        <div className="w-full flex flex-col lg:grid lg:grid-cols-6 lg:grid-rows-4 gap-5 p-4 md:p-6 lg:p-10">
+        <div className="w-full flex flex-col lg:grid lg:grid-cols-6 lg:auto-rows-fr gap-5 p-4 md:p-6 lg:p-10">
           <div className="col-span-4 row-span-4 bg-[#141414] rounded-lg border-2 border-[#292929] p-5 md:p-8 lg:p-12">
             <h3 className="text-3xl md:text-5xl lg:text-6xl text-white font-semibold">
               Send Message
@@ -60,21 +60,19 @@ const Contact = () => {
             </button>
           </div>
 
-
           <div className="col-span-2 row-span-4 bg-[#141414] border-2 border-[#292929] rounded-lg p-5 md:p-8 lg:p-12 flex flex-col gap-7">
-
             <div>
               <p className="flex items-center gap-2 text-lg md:text-xl">
                 <MapPin size={20} />
                 Visit Our Store
               </p>
 
-              <p className="text-2xl md:text-3xl mt-3 leading-relaxed">
-                456, Raq Blvd. #404,
+              <p className="mt-3 text-2xl leading-relaxed md:text-3xl">
+                Bandra West, Mumbai,
                 <br />
-                Los Angeles,
+                Maharashtra 400050,
                 <br />
-                CA 90210
+                India
               </p>
             </div>
 
@@ -89,10 +87,9 @@ const Contact = () => {
               <p className="text-2xl md:text-3xl mt-3">(555) 987-6543</p>
 
               <p className="text-xl md:text-2xl lg:text-3xl mt-3 break-all">
-                hello@jsmcocktail.com
+                hello@sonata.com
               </p>
             </div>
-
 
             <div className="w-full border-2 border-[#292929] rounded-sm">
               <p className="p-4 text-lg lg:text-xl">Open Everyday</p>

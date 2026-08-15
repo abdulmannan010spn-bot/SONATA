@@ -40,6 +40,36 @@ const sliderLists = [
   },
 ];
 
+const footerLinks = [
+  {
+    title: "Shop",
+    links: [
+      { label: "Collections", href: "#collections" },
+      { label: "New Arrivals", href: "#collection" },
+      { label: "Craftsmanship", href: "#craftsmanship" },
+      { label: "Best Sellers", href: "#" },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      { label: "About Us", href: "#" },
+      { label: "Our Story", href: "#" },
+      { label: "Careers", href: "#" },
+      { label: "Press", href: "#" },
+    ],
+  },
+  {
+    title: "Support",
+    links: [
+      { label: "Contact Us", href: "#contact" },
+      { label: "FAQs", href: "#" },
+      { label: "Shipping & Returns", href: "#" },
+      { label: "Warranty", href: "#" },
+    ],
+  },
+];
+
 
 const navLinks = [
   {
@@ -186,6 +216,9 @@ const openingHours = [
 ];
 
 
+
+
+
 export {
   navLinks,
   sliderLists,
@@ -197,4 +230,5 @@ export {
   openingHours,
   storeInfo,
   socials,
+  footerLinks,
 };

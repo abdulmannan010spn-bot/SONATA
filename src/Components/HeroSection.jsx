@@ -76,7 +76,7 @@ function HeroSection() {
               </p>
             </div>
             <div className="view-Watch mr-25 ">
-              <p className="subtitle font-[Jura] lg:w-[20vw] italic text-center ml-2">
+              <p className="subtitle font-[Jura] lg:w-[25vw] italic text-center ml-2 lg:-ml-18">
                 Discover the world of Sonata, where precision meets elegance.
                 Designed for those who value style and reliability, every
                 timepiece reflects exceptional craftsmanship. <br />
